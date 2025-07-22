@@ -1,5 +1,5 @@
-import React from "react";
-import { Hourglass } from "lucide-react"; // You can pick any Lucide icon or swap for another
+import React from 'react';
+import { Hourglass } from 'lucide-react'; // You can pick any Lucide icon or swap for another
 
 export default function RateLimitedUI({ onRetry }) {
   return (
@@ -13,10 +13,10 @@ export default function RateLimitedUI({ onRetry }) {
               <span className="font-black">Notes</span>
               <span className="text-secondary">App</span>
             </span>
-            <Hourglass 
-              className="text-warning animate-pulse" 
+            <Hourglass
+              className="text-warning animate-pulse"
               size={40}
-              strokeWidth={2.5} 
+              strokeWidth={2.5}
             />
           </span>
         </div>
@@ -24,7 +24,8 @@ export default function RateLimitedUI({ onRetry }) {
           Rate Limit Exceeded
         </h2>
         <p className="text-base text-base-content opacity-70 text-center">
-          Whoops! You’ve hit the request limit.<br />
+          Whoops! You’ve hit the request limit.
+          <br />
           Please wait a little—then try again.
         </p>
         {/*try again button*/}

@@ -2,7 +2,7 @@ import Note from '../models/Note.js';
 
 export const getNotes = async (req, res) => {
   try {
-    const notes = await Note.find().sort('-createdAt');
+    const notes = await Note.find().sort('-updatedAt');
     res.status(200).json(notes);
   } catch (err) {
     console.error('Error getting notes from database', err);
