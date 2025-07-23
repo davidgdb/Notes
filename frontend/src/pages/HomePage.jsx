@@ -3,8 +3,8 @@ import { useEffect, useState } from 'react';
 import RateLimitedUI from '../components/RateLimitedUI.jsx';
 import toast from 'react-hot-toast';
 import NoteCard from '../components/NoteCard.jsx';
-import api from "../lib/axios.js";
-import NotesNotFound from "../components/NotesNotFound.jsx";
+import api from '../lib/axios.js';
+import NotesNotFound from '../components/NotesNotFound.jsx';
 
 const HomePage = () => {
   const [isRateLimited, setIsRateLimited] = useState(false);
@@ -40,8 +40,8 @@ const HomePage = () => {
 
       {notes.length === 0 && !isRateLimited && <NotesNotFound />}
 
-      {/*TODO replace loading icon with skeleton effect(youtube)*/}
       <div className="mx-auto max-w-7xl p-4 mt-6">
+        {/*TODO replace loading icon with skeleton effect(youtube)*/}
         {loading && (
           <div className={'text-center text-primary py-10'}>
             <button className="btn">
@@ -54,7 +54,7 @@ const HomePage = () => {
         {notes.length > 0 && !isRateLimited && (
           <div className="grid grid-cols-1 gap-4 sm:grid-cols-2 lg:grid-cols-3">
             {notes.map((note) => (
-              <NoteCard key={note._id} note={note} setNotes={setNotes}/>
+              <NoteCard key={note._id} note={note} setNotes={setNotes} />
             ))}
           </div>
         )}

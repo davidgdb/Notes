@@ -3,7 +3,7 @@ export function formatedDate(date) {
   const options = {
     year: 'numeric',
     month: 'short',
-    day: 'numeric'
+    day: 'numeric',
   };
   return dateObj.toLocaleDateString('en-GB', options);
 }
