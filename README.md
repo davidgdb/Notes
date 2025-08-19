@@ -8,7 +8,7 @@
 > A modern, responsive, and feature-rich note-taking application built with cutting-edge web technologies. Seamlessly capture, organize, and manage your ideas with an intuitive user interface and robust backend architecture.
 
 ## 🚀 **Live Demo**
-*[Future deployment URL]*
+*https://notes-e911.onrender.com*
 
 ---
 
@@ -172,7 +172,7 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 ## 👨‍💻 **Author**
 
 **David Enachescu-Goldenberg**
-- GitHub: [@davidgdb](https://github.com/yourusername)
+- GitHub: [@davidgdb](https://github.com/davidgdb)
 - LinkedIn: [David Enachescu-Goldenberg](https://www.linkedin.com/in/david-enachescu-goldenberg-854363219/)
 - Portfolio: [Placeholder](https://www.linkedin.com/in/david-enachescu-goldenberg-854363219/)
 
